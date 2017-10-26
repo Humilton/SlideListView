@@ -5,6 +5,23 @@ Use for Android ListView slide delete etc.
 
 ## How To Use
 
+### Step 1. Add the JitPack repository to your build file
+```
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+### Step 2. Add the dependency
+```
+dependencies {
+    compile 'com.github.Humilton:SlideListView:1.0.1'
+}
+```
+
 ### 1、add in you layout.xml
     <com.roamer.slidelistview.SlideListView  
         xmlns:slide="http://schemas.android.com/apk/res-auto"  
@@ -33,3 +50,5 @@ Use for Android ListView slide delete etc.
     }  
 
 [See also](http://blog.csdn.net/lonelyroamer/article/details/42439875)
+
+
